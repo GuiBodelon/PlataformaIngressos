@@ -1,11 +1,11 @@
 version: '3.4'
 
 services:
-  velox4_app:
+  tickets_app:
     restart: always
-    image: ${DOCKER_REGISTRY-}velox4_app_ssr
+    image: ${DOCKER_REGISTRY-}tickets_app_ssr
     networks:
-      - velox4.network
+      - tickets.network
 
 networks:
-  velox4.network:
+  tickets.network:

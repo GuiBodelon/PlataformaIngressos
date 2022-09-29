@@ -117,7 +117,7 @@ export default {
     },
   },
   footer: {
-    text: 'Velox Tickets LTDA - CNPJ: 44.593.013/0001-97 - R. Damião Pinheiro Machado, 420 - Vila São Lúcio - Térreo - Botucatu-SP - 18600-000',
-    copyright: 'Copyright © - VeloxTickets. Todos os direitos reservados',
+    text: 'Text footer',
+    copyright: 'Copyright © - [company]. Todos os direitos reservados',
   },
 };

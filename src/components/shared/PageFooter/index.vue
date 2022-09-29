@@ -3,7 +3,7 @@
     <div class="row firstFooterRow">
       <div class="col-lg-2 q-mt-sm logoBlock row">
         <q-img
-          src="/media/logo_velox_tam_original.png"
+          src="/media/placeholder-logo.png"
           style="width: 180px; height: 98px"
         />
       </div>
@@ -53,7 +53,7 @@
             <div class="buttons row q-gutter-x-xm">
               <a
                 target="blank"
-                href="https://www.facebook.com/VeloxTickets?ref=hl"
+                href="#"
                 class="insta"
                 title="Join us on Facebook"
               >
@@ -61,7 +61,7 @@
               </a>
               <a
                 target="blank"
-                href="https://twitter.com/veloxtickets"
+                href="#"
                 class="in"
                 title="Join us on Twitter"
               >
@@ -69,7 +69,7 @@
               </a>
               <a
                 target="blank"
-                href="https://www.instagram.com/veloxtickets/"
+                href="#"
                 class="in"
                 title="Join us on Instagram"
               >
@@ -77,7 +77,7 @@
               </a>
               <a
                 target="blank"
-                href="https://www.youtube.com/channel/UC8efY1d5fgf0eG5xtOoNv8Q"
+                href="#"
                 class="in"
                 title="Join us on Youtube"
               >

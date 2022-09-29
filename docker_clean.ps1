@@ -2,7 +2,7 @@
 
 docker container ls -a --no-trunc --format "{{json .}}" | foreach-object {
   $i = $_ | ConvertFrom-Json
-  if($i.Names.IndexOf("velox4") -gt -1) {
+  if($i.Names.IndexOf("tickets") -gt -1) {
     "x" | Write-Host
     docker container stop $i.ID | Write-Host
     docker container rm $i.ID | Write-Host
@@ -11,7 +11,7 @@ docker container ls -a --no-trunc --format "{{json .}}" | foreach-object {
 
 docker image ls -a --no-trunc --format "{{json .}}" | foreach-object {
    $i = $_ | ConvertFrom-Json
-   if($i.Repository.IndexOf("velox4") -gt -1) {
+   if($i.Repository.IndexOf("tickets") -gt -1) {
      docker image rm $i.ID -f | Write-Host
    }
 }

@@ -1,9 +1,9 @@
 {
-  "name": "v4nav",
+  "name": "tickets",
   "version": "0.0.1",
-  "description": "Velox 4",
-  "productName": "Velox4",
-  "author": "Marco Antonio Mezzena Segundo <tmezzena@consciencia.com.br>",
+  "description": "TicketsPlatform",
+  "productName": "TicketsPlatform",
+  "author": "Guilherme Alvarez Bodelon <guilherme_bodelon@hotmail.com>",
   "private": true,
   "scripts": {
     "jsonserve": "json-server ./db/generate.js",

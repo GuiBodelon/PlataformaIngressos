@@ -1,7 +1,7 @@
 <template>
   <q-toolbar class="primaryToolbar">
     <q-img
-      src="/media/logo_velox.png"
+      src="/media/placeholder-logo.png"
       style="max-width: 120px"
       class="cursor-pointer"
       @click="goToIndex()"

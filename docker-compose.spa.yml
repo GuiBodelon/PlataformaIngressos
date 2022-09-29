@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  velox4_app:
-    container_name: velox4_app_spa
+  tickets_app:
+    container_name: tickets_app_spa
     build:
       context: .
       target: 'test-stage'
