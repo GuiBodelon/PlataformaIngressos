@@ -1,0 +1,9 @@
+.cinemaCards {
+  min-height: 65vh;
+}
+@media (max-width: $breakpoint-sm-max) {
+  .cinemaCards {
+    min-height: 65vh;
+    margin-top: 10%;
+  }
+}

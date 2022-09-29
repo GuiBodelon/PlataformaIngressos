@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  velox4_app:
+    restart: always
+    image: ${DOCKER_REGISTRY-}velox4_app_ssr
+    networks:
+      - velox4.network
+
+networks:
+  velox4.network:

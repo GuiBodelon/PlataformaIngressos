@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  velox4_app:
+    container_name: velox4_app_ssr
+    build:
+      context: .
+      target: 'test-stage'
+      dockerfile: .docker/test.Dockerfile
+    volumes:
+      - .:/app
+    ports:
+      - '34518:80'
+#    command: /bin/sh -c "yarn && quasar dev -m ssr"
+#    command: /bin/sh -c "yarn && quasar dev"

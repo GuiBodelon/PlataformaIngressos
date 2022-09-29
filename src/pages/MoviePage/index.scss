@@ -1,0 +1,47 @@
+.moviePage {
+  padding: 0 11%;
+}
+.movieTitle {
+  padding: 1% 0;
+}
+.movieInfo {
+  padding-right: 2%;
+}
+.movieDates {
+  padding-top: 0;
+}
+.availablePlaces {
+  justify-content: end;
+}
+@media (max-width: $breakpoint-md-max) {
+  .availablePlaces {
+    justify-content: start;
+  }
+}
+@media (max-width: $breakpoint-sm-max) {
+  .moviePage {
+    padding: 0 2%;
+  }
+  .movieTitle {
+    padding: 5% 0;
+  }
+  .movieInfo {
+    padding-right: 0;
+  }
+  .movieDates {
+    padding-top: 5%;
+  }
+  .availablePlaces {
+    justify-content: start;
+  }
+}
+
+@media (max-width: $breakpoint-xl-min) {
+  .moviePage {
+    padding: 0 3%;
+  }
+}
+.movieImg {
+  border-radius: 6px;
+  width: 206.48px;
+}

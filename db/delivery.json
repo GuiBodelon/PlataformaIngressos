@@ -1,0 +1,42 @@
+{
+  "id": "MOV1",
+  "date": "2020-01-01",
+  "items": [
+    {
+      "id": "1",
+      "barCode": "CODBAR1",
+      "productCode": "COMBO1",
+      "productName": "Combo 1",
+      "productImage": "https://img.veloxtickets.com/content/produtos/combo-cine-inter_11eaed5d2ad6144d8d2d641c6771402f_produtolocal.jpg?20091430",
+      "toPickup": false,
+      "typeOptions": [
+        {
+          "code": "refrigerante",
+          "name": "Refrigerante",
+          "productOptions": [
+            {
+              "productName": "COCAPEQ",
+              "productCode": "Coca Cola 300ml",
+              "productImage": "https://img.veloxtickets.com/content/produtos/combo-cine-inter_11eaed5d2ad6144d8d2d641c6771402f_produtolocal.jpg?20091430",
+              "selected": false,
+              "variationOptions": [
+                {
+                  "varCode": "SEM_GELO",
+                  "varName": "Sem Gelo",
+                  "checked": false
+                }
+              ]
+            },
+            {
+              "productName": "GUARANAPEQ",
+              "productCode": "Guaraná 300ml",
+              "productImage": "https://img.veloxtickets.com/content/produtos/combo-cine-inter_11eaed5d2ad6144d8d2d641c6771402f_produtolocal.jpg?20091430",
+              "selected": false
+            }
+          ]
+        }
+      ],
+      "typeOptionsCompleted": false
+    }
+  ]
+}

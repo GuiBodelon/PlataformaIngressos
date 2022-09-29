@@ -1,0 +1,25 @@
+.movieCarousel {
+  width: 100%;
+  height: 500px;
+  background: transparent;
+}
+@media (min-width: $breakpoint-xl-min) {
+  .movieCarousel {
+    width: 100%;
+  }
+}
+@media (max-width: $breakpoint-lg-min) {
+  .movieCarousel {
+    height: 400px;
+  }
+}
+@media (max-width: $breakpoint-md-min) {
+  .movieCarousel {
+    height: 300px;
+  }
+}
+@media (max-width: $breakpoint-sm-min) {
+  .movieCarousel {
+    height: 150px;
+  }
+}
